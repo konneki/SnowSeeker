@@ -19,6 +19,7 @@
 		2F86D03129B7C2390057DEE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F86D03029B7C2390057DEE8 /* ContentView.swift */; };
 		2F86D03329B7C23A0057DEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D03229B7C23A0057DEE8 /* Assets.xcassets */; };
 		2F86D03629B7C23A0057DEE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D03529B7C23A0057DEE8 /* Preview Assets.xcassets */; };
+		2F89538029B92F9D0054DB50 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89537F29B92F9D0054DB50 /* Favourites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		2F86D03029B7C2390057DEE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F86D03229B7C23A0057DEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86D03529B7C23A0057DEE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F89537F29B92F9D0054DB50 /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				2F0C087F29B8BD65009C1EFF /* SkiDetailView.swift */,
 				2F0C088129B8BE7E009C1EFF /* ResortDetailView.swift */,
 				2F0C087D29B8BB3C009C1EFF /* ResortView.swift */,
+				2F89537F29B92F9D0054DB50 /* Favourites.swift */,
 				2F0C088329B8E5EF009C1EFF /* Facility.swift */,
 				2F0C087B29B8B806009C1EFF /* WelcomeView.swift */,
 				2F0C087729B8B698009C1EFF /* Report.swift */,
@@ -167,6 +170,7 @@
 				2F86D03129B7C2390057DEE8 /* ContentView.swift in Sources */,
 				2F0C088429B8E5EF009C1EFF /* Facility.swift in Sources */,
 				2F86D02F29B7C2390057DEE8 /* SnowSeekerApp.swift in Sources */,
+				2F89538029B92F9D0054DB50 /* Favourites.swift in Sources */,
 				2F0C087E29B8BB3C009C1EFF /* ResortView.swift in Sources */,
 				2F0C087829B8B698009C1EFF /* Report.swift in Sources */,
 				2F0C088229B8BE7E009C1EFF /* ResortDetailView.swift in Sources */,

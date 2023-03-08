@@ -13,12 +13,20 @@ struct ResortView: View {
     @Environment(\.horizontalSizeClass) var sizeClass
     @Environment(\.dynamicTypeSize) var typeSize
     
+    @EnvironmentObject var favourites: Favourites
+    
     @State private var selectedFacility: Facility?
     @State private var showingFacility = false
     
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
+                HStack {
+                    Spacer()
+                    
+                    Text("Photo by \(resort.imageCredit)")
+                }
+                .padding(.horizontal)
                 Image(decorative: resort.id)
                     .resizable()
                     .scaledToFit()
@@ -55,6 +63,17 @@ struct ResortView: View {
                     }
                 }
                 .padding(.horizontal)
+                
+                Button(favourites.contains(resort) ? "Remove from favourites" : "Add to favourites") {
+                    if favourites.contains(resort) {
+                        favourites.remove(resort)
+                    } else {
+                        favourites.add(resort)
+                    }
+                }
+                .buttonStyle(.borderedProminent)
+                .padding()
+                
             }
             .navigationTitle("\(resort.name), \(resort.country)")
             .navigationBarTitleDisplayMode(.inline)
@@ -72,5 +91,6 @@ struct ResortView_Previews: PreviewProvider {
         NavigationView {
             ResortView(resort: Resort.example)
         }
+        .environmentObject(Favourites())
     }
 }
