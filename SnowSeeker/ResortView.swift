@@ -25,8 +25,10 @@ struct ResortView: View {
                     Spacer()
                     
                     Text("Photo by \(resort.imageCredit)")
+                        .font(.caption)
                 }
                 .padding(.horizontal)
+                .padding(.bottom, 4)
                 Image(decorative: resort.id)
                     .resizable()
                     .scaledToFit()

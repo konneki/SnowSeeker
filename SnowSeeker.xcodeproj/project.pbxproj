@@ -20,6 +20,7 @@
 		2F86D03329B7C23A0057DEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D03229B7C23A0057DEE8 /* Assets.xcassets */; };
 		2F86D03629B7C23A0057DEE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F86D03529B7C23A0057DEE8 /* Preview Assets.xcassets */; };
 		2F89538029B92F9D0054DB50 /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89537F29B92F9D0054DB50 /* Favourites.swift */; };
+		2F89538429B9447D0054DB50 /* FileManager - DocumentDirecotry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89538329B9447D0054DB50 /* FileManager - DocumentDirecotry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		2F86D03229B7C23A0057DEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F86D03529B7C23A0057DEE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F89537F29B92F9D0054DB50 /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourites.swift; sourceTree = "<group>"; };
+		2F89538329B9447D0054DB50 /* FileManager - DocumentDirecotry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager - DocumentDirecotry.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				2F0C087F29B8BD65009C1EFF /* SkiDetailView.swift */,
 				2F0C088129B8BE7E009C1EFF /* ResortDetailView.swift */,
 				2F0C087D29B8BB3C009C1EFF /* ResortView.swift */,
+				2F89538329B9447D0054DB50 /* FileManager - DocumentDirecotry.swift */,
 				2F89537F29B92F9D0054DB50 /* Favourites.swift */,
 				2F0C088329B8E5EF009C1EFF /* Facility.swift */,
 				2F0C087B29B8B806009C1EFF /* WelcomeView.swift */,
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0C087C29B8B806009C1EFF /* WelcomeView.swift in Sources */,
+				2F89538429B9447D0054DB50 /* FileManager - DocumentDirecotry.swift in Sources */,
 				2F0C088029B8BD65009C1EFF /* SkiDetailView.swift in Sources */,
 				2F86D03129B7C2390057DEE8 /* ContentView.swift in Sources */,
 				2F0C088429B8E5EF009C1EFF /* Facility.swift in Sources */,
